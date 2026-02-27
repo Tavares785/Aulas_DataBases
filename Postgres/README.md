@@ -4,15 +4,6 @@ Este projeto configura o PostgreSQL usando Docker Compose, construindo a imagem 
 
 ---
 
-## 📦 O que está incluído
-
-- PostgreSQL (versão 15 via Dockerfile)
-- Scripts de inicialização via volume: `./init-db`
-- Banco de dados inicial `loja_virtual` criado
-- Acesso via `psql` e clientes de banco de dados
-
----
-
 ## 🧑‍💻 Como usar
 
 ### 1. Certifique-se de que o arquivo `docker-compose.yml` e o `Dockerfile` estejam na pasta `Postgres`.
