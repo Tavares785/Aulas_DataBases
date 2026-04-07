@@ -2,51 +2,6 @@
 
 Este projeto configura o PostgreSQL usando Docker Compose, construindo a imagem localmente a partir de um Dockerfile.
 
----
-
-## 🧑‍💻 Como usar
-
-### 1. Certifique-se de que o arquivo `docker-compose.yml` e o `Dockerfile` estejam na pasta `Postgres`.
-
-Conteúdo do `docker-compose.yml`:
-
-```yaml
-version: '3.8'
-
-services:
-  db:
-    build: .
-    container_name: postgres_loja
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: loja_virtual
-    ports:
-      - "5432:5432"
-    volumes:
-      - ./init-db:/docker-entrypoint-initdb.d
-    restart: always
-```
-
-### 2. Suba o container
-
-No diretório `Postgres`, execute:
-```bash
-docker-compose up -d
-```
-
-### 3. Conecte-se ao PostgreSQL
-
-Você pode conectar-se via ferramentas como DBeaver, PgAdmin ou `psql` local usando:
-
-- **Host:** `localhost`
-- **Porta:** `5432`
-- **Usuário:** `admin123`
-- **Senha:** `admin123`
-- **Banco:** `auladb`
-
----
-
 ## ⚙️ Comandos úteis
 
 ```bash
