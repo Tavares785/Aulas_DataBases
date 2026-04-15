@@ -54,7 +54,6 @@ Para concluir este lab, siga os passos abaixo:
 2. Suba o arquivo `projeto_normalizado.sql` com os comandos de criação.
 3. Inclua uma imagem ou PDF do seu **Diagrama (DER) e Modelo Logico** na pasta raiz.
 4. Edite o arquivo `README.md` do seu repositório com as respostas das questões teóricas (Tarefa 1).
-5. Envie o link do repositório via formulário oficial da disciplina.
 
 ---
 
