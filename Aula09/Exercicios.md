@@ -113,3 +113,8 @@ Dica: voce pode usar como referencia os documentos do catalogo de dados acima.
 
 1. Remova um produto especifico usando `deleteOne()`.
 2. Remova todos os produtos de uma categoria usando `deleteMany()`.
+
+### ENTREGA: 
+1. Faça um fork do Repositorio ou crie um seu
+2. Faça tudo o que foi pedido e coloque em um resposta.md
+3. Me envie o link pelo Forms: https://docs.google.com/forms/d/e/1FAIpQLSfTlyfskwsJ1nE4haBaUtZkwet5EpE3S0KNu4ZVg52fsbSuTA/viewform?usp=header
